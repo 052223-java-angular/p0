@@ -32,9 +32,7 @@ This is a Java-based command-line interface (CLI) eCommerce application. The app
 - Implementing a recommendation system based on user's previous purchases
 - Adding an admin role that can add, remove, or modify products
 - Implementing promotional codes and discounts
-- Multi-currency support
 - Adding a wish list feature
-- Live chat support
 
 ## Tech Stacks
 
