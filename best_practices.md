@@ -60,22 +60,31 @@ Code reviews are an important part of quality assurance. Here are some guideline
 
 ## Merging and Conflicts
 
-When you're done with your work on a branch, you can merge it back into the main branch. Here are some tips:
+When you're done with your work on a branch, you have two main ways to integrate it back into the main branch: direct merging or creating a pull request.
 
-- **Resolve conflicts locally**: If there's a conflict when merging, resolve it on your local machine before pushing the changes.
-- **Use pull requests**: Pull requests allow for code review before changes are merged into the main branch.
+**Direct Merging:**
 
-Here's how you can merge a branch:
+Useful for merging changes in your local branches, particularly when you're working alone on a project or your changes don't require review. Here's how you can merge a branch:
 
 ```bash
 git checkout main
 git merge <branch-name>
 ```
+**Pull Requests**:
+
+In a team or open-source environment, it's often preferable to push your feature branch to the remote repository and create a pull request. This allows for code review and discussion before the changes are integrated into the main branch. Here's a basic workflow:
+
+```bash
+git push origin <branch-name>
+```
+
+Then, go to your repository hosting service (like GitHub) and create a new pull request.
+
+**General Tips**:
+
+- **Resolve conflicts locally**: If there's a conflict when merging or creating a pull request, resolve it on your local machine before pushing the changes.
+- **Use descriptive messages**: When creating a pull request, write a clear description of the changes made and the reason behind them. This helps reviewers understand your work.
 
 ## Conclusion
 
 Following these best practices can help keep your project organized, make it easier to track changes, and improve the overall quality of your code.
-
-```bash
-Please replace `<branch-name>` and `<file-name>` with your actual branch and file names.
-```
