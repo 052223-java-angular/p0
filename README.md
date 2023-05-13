@@ -49,7 +49,7 @@ This is a Java-based command-line interface (CLI) eCommerce application. The app
 
 ## Requirements
 
-- **Clean Codebase**: All code should be clean and well-documented. The repository should not include any unnecessary files or folders such as the `target/` directory or `.DS_Store`. All files and directories should be appropriately named and organized.
+- **Clean Codebase**: All code should be clean and well-documented. The repository should not include any unnecessary files or folders such as the `target/`, `.DS_Store`, etc. All files and directories should be appropriately named and organized.
 
 - **Database Design**: The database should be designed following the principles of the 3rd Normal Form (3NF) to ensure data integrity and efficiency. An Entity Relationship Diagram (ERD) should be included in the documentation.
 
