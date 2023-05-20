@@ -8,7 +8,7 @@ This is a Java-based command-line interface (CLI) eCommerce application. The app
 
 - **As a user**, I want to register an account so that I can have a personalized shopping experience.
 - **As a user**, I want to log in to my account so that I can access my shopping cart and order history.
-- **As a user**, I want to browse through products without logging in so that I can see the inventory without commitment.
+- **As a user**, I want to browse through products only when logging in.
 - **As a user**, I want to search for products by name, category, or price range so that I can find what I'm looking for.
 - **As a user**, I want to add products to my shopping cart so that I can purchase them later.
 - **As a user**, I want to modify the quantity or remove items from my cart so that I can make changes before finalizing the purchase.
